@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(106, 106, 106, 0.7), rgba(0, 0, 0, 0.7)), url('design-space-paper-textured-background.jpg'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #000000; /* Warna teks */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px; /* Sesuaikan ukuran font dengan panjang gambar */
+}
+
+td img {
+    width: 100px; /* Lebar gambar yang digunakan */
+    height: 150px; /* Tinggi gambar yang digunakan */
+}
+
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="file"] {
+    width: 100%;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+form a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
